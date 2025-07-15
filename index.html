@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="icon" href="favicon.ico"> 
+</head>
+<body>
+
+    <header class="header">
+    <a href="#home" class="logo">Ishwarya <span>Selvakumar</span></a>
+    <i class="bx bx-menu" id="menu-icon"> </i>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1> Hi, It's <span>Ishwarya</span></h1>
+            <h3>I'm a <span>Frontend Developer</span></h3>
+            <p>I'm a passionate Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and responsive design. I enjoy creating clean, user-friendly web interfaces that bring ideas to life. As a fresher, I'm eager to learn, grow, and contribute to real-world projects where I can sharpen my skills and build engaging digital experiences.</p>
+           <div class="social-icon">
+               <a href="https://github.com/Ishwaryaselvakumar" target="_blank">
+                 <i class="bx bxl-github"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/ishwarya-selvakumar-0b57592b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                 <i class="bx bxl-linkedin-square"></i>
+               </a>
+               <a href="https://www.instagram.com/_._ishwarya_selvakumar_._?igsh=OXRvNmw3bmF3ZHNp" target="_blank">
+                 <i class="bx bxl-instagram-alt"></i>
+               </a>
+               <a href="mailto:ishwaryaselvakumar125@gmail.com" target="_blank">
+                 <i class="bx bxs-envelope"></i>
+               </a>
+          </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>       
+        </div>
+        <div class="home-img">
+            <img src="./IMG-20250710-WA0010.jpg" alt="profile">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./IMG-20250710-WA0010.jpg" alt="profile">
+        </div>
+        <div class="about-content"><h2>About<span>Me</span></h2>
+        <p>I'm Ishwarya Selvakumar, a dedicated and enthusiastic Front-End Developer with a strong interest in web development and design. I recently completed my studies and have built a solid foundation in HTML, CSS, JavaScript, and frameworks like Bootstrap. I enjoy creating responsive, user-friendly interfaces that deliver a smooth experience across devices. I’m a quick learner, highly motivated, and always open to new challenges and technologies. My goal is to grow as a developer by contributing to real-world projects and continuously improving my skills.</p>
+        <a href="#" class="btn">Read More</a>    
+    </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="cservices-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Responsive Web Design</h4>
+                    <p>I design and develop fully responsive websites that provide an optimal viewing experience across all devices,
+                         including desktops, tablets, and smartphones. By using flexible layouts, media queries, and fluid grids, 
+                         I ensure that every element on the page adjusts smoothly to different screen sizes. My goal is to create websites that are not only visually appealing but also easy to navigate regardless of the device being used. 
+                         A responsive design enhances user engagement, improves accessibility, and contributes to better SEO performance. I stay updated with the latest trends in mobile-first and cross-browser compatible design to deliver high-quality and adaptive web solutions.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-layout"></i>
+                    <h4>Website UI Developmet</h4>
+                    <p> I am skilled in crafting clean and intuitive user interfaces that enhance the overall user experience. 
+                        My UI development process involves translating design ideas and wireframes into functional, interactive web pages using HTML, CSS, 
+                        and frameworks like Bootstrap. I focus on maintaining consistency, readability, and accessibility throughout the design to ensure that users can interact with the content smoothly. 
+                        I have a strong eye for layout, color schemes, typography, spacing, and component alignment, which allows me to build interfaces that are both aesthetically pleasing and highly usable. 
+                        I believe that a great user interface is not just about design—it's about functionality and seamless interaction between the user and the product.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>JavaScript Interaction</h4>
+                    <p> I enhance the interactivity and functionality of websites by implementing dynamic features using JavaScript. From simple tasks like validating form inputs and creating toggle menus to more engaging elements like sliders, 
+                        modals, and animations, I enjoy bringing websites to life through code. JavaScript allows me to improve user engagement and provide real-time feedback without requiring page reloads. 
+                        I strive to write clean, modular, and efficient code that improves user interaction while maintaining performance. I am continuously learning and applying modern JavaScript concepts such as event handling, DOM manipulation, 
+                        and ES6 features to make websites more powerful and user-friendly.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span>Me</span></h2>
+              <form action="https://formsubmit.co/ishwaryaselvakumar125@gmail.com" method="POST">
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" name="name" placeholder="Full Name">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="number" placeholder="Phone Number">
+                        <input type="text" name="Subject"  placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+                <input type="hidden" name="_template" value="table">
+            </form>
+        </section>
+
+        <footer class="footer"> 
+           <div class="social-icon">
+               <a href="https://github.com/Ishwaryaselvakumar" target="_blank">
+                 <i class="bx bxl-github"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/ishwarya-selvakumar-0b57592b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                 <i class="bx bxl-linkedin-square"></i>
+               </a>
+               <a href="https://www.instagram.com/_._ishwarya_selvakumar_._?igsh=OXRvNmw3bmF3ZHNp" target="_blank">
+                 <i class="bx bxl-instagram-alt"></i>
+               </a>
+               <a href="mailto:ishwaryaselvakumar125@gmail.com" target="_blank">
+                 <i class="bx bxs-envelope"></i>
+               </a>
+          </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">&copy; Ishwarya Selvakumar | All Rigths Reserved</p>
+        </footer>
+        
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
